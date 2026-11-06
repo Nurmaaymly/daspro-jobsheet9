@@ -24,6 +24,10 @@ public class SearchNilai18 {
                 break;
             }
         }
+        
+        if (!ditemukan) { 
+            System.out.println("Nilai " + key + " tidak ditemukan."); 
+        } 
         sc.close();
     }
 }
